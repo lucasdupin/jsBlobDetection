@@ -19,3 +19,6 @@ for (var i = 0; i < blobs.length; i++) {
 	ctx.fillRect(blobs[i].minX, blobs[i].minY, blobs[i].width, blobs[i].height)
 };
 ```
+
+## Working sample:
+http://lucasdupin.github.io/jsBlobDetection
