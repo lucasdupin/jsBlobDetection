@@ -17,6 +17,5 @@ blobs = Detector.getBlobs(imageData, threshold)
 ```javascript
 for (var i = 0; i < blobs.length; i++) {
 	ctx.fillRect(blobs[i].minX, blobs[i].minY, blobs[i].width, blobs[i].height)
-	ctx.fillText("x: " + blobs[i].minX+", y:"+blobs[i].minY+", w:"+blobs[i].width+", h:"+blobs[i].height, blobs[i].minX, blobs[i].minY-5);
 };
 ```
